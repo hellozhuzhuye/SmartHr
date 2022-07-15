@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.1.172:3306/smarthr?useUnicode=true&characterEncoding=UTF-8
+    username: icharge
+    password: icharge
+    driver-class-name: com.mysql.jdbc.Driver
+    druid:
+      stat-view-servlet:
+        allow: true
+    type: com.alibaba.druid.pool.DruidDataSource
